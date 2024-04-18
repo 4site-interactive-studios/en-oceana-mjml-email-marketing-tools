@@ -1,0 +1,317 @@
+<mjml>
+    <mj-head>
+        <mj-breakpoint width="600px"/>
+        <mj-attributes>
+            <mj-all color="inherit" font-family="Tahoma, Verdana, Segoe, sans-serif" />
+            <mj-text font-size="14px" line-height="1.25" />
+            <mj-button border-radius="0" />
+            <mj-navbar-link text-transform="none" />
+            <mj-section padding="10px 0px" />
+        </mj-attributes>
+        <mj-raw>
+            <meta name="color-scheme" content="light dark">
+            <meta name="supported-color-schemes" content="light dark">
+        </mj-raw>
+        <mj-style>
+            div[data-container] {
+                /* Email builder compatability styles */
+                max-width: 600px;
+                margin: 0 auto;
+            }
+
+            body {
+                color: #393d47;
+                font-family: Tahoma, Verdana, Segoe, sans-serif;
+            }
+
+            a {
+                color: #0686e5;
+            }
+
+            h1,h2,h3,h4,h5,h6 {
+                color: #142b58;
+            }
+
+            .wysiwyg > div > *:first-child {
+                margin-top: 0!important;
+            }
+
+            .wysiwyg > div > *:last-child {
+                margin-bottom: 0!important;
+            }
+
+            .hide-content,
+            .hide-content table,
+            .hide-content div {
+                display: none;
+                mso-hide: all;
+                max-height: 0;
+                overflow: hidden;
+                font-size: 0!important;
+                line-height: 0!important;
+            }
+
+            @media (max-width: 599px) {
+                .responsive-col-padding > table > tbody > tr > td {
+                    padding: 0 25px 20px!important;
+                }
+
+                .header-button-col {
+                    margin: 16px auto 6px;
+                }
+            }
+        </mj-style>
+        <mj-style>
+            /* dark mode styles */
+            :root {
+                color-scheme: light dark;
+                supported-color-schemes: light dark;
+            }
+
+            .dark-only {
+                display: none;
+            }
+
+            [data-ogsc] .dark-only {
+                display: block !important;
+            }
+
+            [data-ogsc] .light-only {
+                display: none !important;
+            }
+
+
+            @media (prefers-color-scheme: dark) {
+                .light-only {
+                    display: none !important;
+                }
+
+                .dark-only {
+                    display: block !important;
+                }
+
+                body,
+                .email-body {
+                    color: #eeeeee !important;
+                    background-color: #171819 !important;
+                }
+
+                a {
+                    color: #798283 !important;
+                }
+
+                h1,h2,h3,h4,h5,h6 {
+                    color:  #798283 !important;
+                }
+
+                .block,
+                .block > table {
+                    background-color: #0e0f0f !important;
+                }
+
+                .button td,
+                .button a {
+                    background-color: #eaebec !important;
+                    color: #121314 !important;
+                }
+            }
+        </mj-style>
+        <mj-style inline="inline">
+            .button:not(.button-inline) a {
+                display: block!important;
+            }
+        </mj-style>
+        <!--
+        #142b58 Dark Blue
+        #0686e5 Blue
+        #c30d02 Red
+        #393d47 Grey
+        -->
+    </mj-head>
+    <mj-body css-class="email-body" background-color="#ebebeb">
+        <!-- START: Above header content -->
+        <!-- START: WYSIWYG (Text content) -->
+        <mj-section css-class="text-block block" background-color="#ffffff">
+            <mj-column>
+                <mj-text padding="0 10px" css-class="wysiwyg">
+                    <p>Above header content</p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!-- END: WYSIWYG (Text content) -->
+        <!-- END: Above header content -->
+
+        <!-- START: Header -->
+        <mj-section css-class="header-block block" background-color="#ffffff">
+            <mj-group>
+                <mj-column vertical-align="middle">
+                    <mj-image
+                        src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1997/Oceana_English_SideTagline_2Blue_RGB+-+Copy.png?v=1638473655000"
+                        alt="Oceana Logo"
+                        width="300px"
+                        align="center"
+                        href="https://oceana.org"
+                        padding="0px 10px"
+                    />
+                </mj-column>
+            </mj-group>
+        </mj-section>
+        <!-- END: Header -->
+
+        <!-- START: Header w/ button -->
+        <mj-section css-class="header-block block" background-color="#ffffff">
+            <mj-column vertical-align="middle" width="66.66%">
+                <mj-image
+                    src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1997/Oceana_English_SideTagline_2Blue_RGB+-+Copy.png?v=1638473655000"
+                    alt="Oceana Logo"
+                    width="300px"
+                    align="center"
+                    href="https://oceana.org"
+                    padding="0px 10px"
+                />
+            </mj-column>
+            <mj-column css-class="header-button-col" vertical-align="middle"  width="33.33%">
+                <mj-button
+                    padding="0px 10px"
+                    css-class="button button-inline"
+                    color="#ffffff"
+                    background-color="#c30d02"
+                    href="https://act.oceana.org/page/140864/action/1?ea.tracking.id=email"
+                    align="center"
+                    font-weight="bold"
+                    font-size="16px"
+                >Take Action</mj-button>
+            </mj-column>
+        </mj-section>
+        <!-- END: Header -->
+
+        <!-- START: Body Content -->
+
+        <!-- START: Image - Adjustable Size -->
+        <mj-section css-class="fixed-image-block block" background-color="#ffffff" padding="0">
+            <mj-column>
+                <mj-image
+                    src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1997/Valentines_FarewelltoFoam_Hero.png?v=1707246522000"
+                    alt="Custom alt text"
+                    href="https://oceana.org"
+                    width="300px"
+                    height="150px"
+                    padding="0px"
+                    align="left"
+                />
+            </mj-column>
+        </mj-section>
+        <!-- END Image - Adjustable Size -->
+
+        <!-- START: Button -->
+        <mj-section css-class="button-block block" background-color="#ffffff" padding="20px 0">
+            <mj-column>
+                <mj-button
+                    padding="0px 10px"
+                    css-class="button"
+                    color="#ffffff"
+                    background-color="#c30d02"
+                    href="https://act.oceana.org/page/140864/action/1?ea.tracking.id=email"
+                    align="center"
+                    font-weight="bold"
+                    font-size="16px"
+                    width="72%"
+                >Take Action</mj-button>
+            </mj-column>
+        </mj-section>
+        <!-- END: Button -->
+
+        <!-- START: WYSIWYG (Text content) -->
+        <mj-section css-class="text-block block" background-color="#ffffff">
+            <mj-column>
+                <mj-text padding="0 10px" css-class="wysiwyg">
+                    <h1>Hi there!</h1>
+                    <p>Thanks for signing up for our newsletter. We're excited to have you on board.</p>
+                    <a href="test.com">Link</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!-- END: WYSIWYG (Text content) -->
+
+        <!-- START: Spacer -->
+        <mj-section css-class="spacer-block block" padding="0">
+            <mj-column>
+                <mj-spacer height="20px" container-background-color="#ffffff" />
+            </mj-column>
+        </mj-section>
+        <!-- END: Spacer -->
+
+        <!-- START: Heading w/ borders -->
+        <mj-section css-class="heading-block block" background-color="#ffffff">
+            <mj-column>
+                <mj-divider border-color="#BBBBBB" border-width="1px" padding="10px" />
+                <mj-text padding="0" css-class="wysiwyg" align="center">
+                    <h2 style="font-size: 22px; margin-top: 0; margin-bottom: 0;">HEADING TEXT</h2>
+                </mj-text>
+                <mj-divider border-color="#BBBBBB" border-width="1px" padding="10px" />
+            </mj-column>
+        </mj-section>
+        <!-- END: Heading w/ borders -->
+
+        <!-- END: Body Content -->
+
+        <!-- START: Footer -->
+        <mj-section css-class="footer-block block" background-color="#ffffff">
+            <mj-column>
+                <mj-divider border-color="#BBBBBB" border-width="1px" padding="10px" />
+                <mj-text padding="0 10px" css-class="wysiwyg" align="center">
+                    <em>Save the Oceans, Feed the World</em>
+                    <p style="margin-top: 5px; margin-bottom: 0;">
+                        <a style="text-decoration: none" href="https://oceana.org">About Oceana</a> |
+                        <a style="text-decoration: none" href="https://act.oceana.org/page/128988/donate/1?ea.tracking.id=email">Donate</a> |
+                        <a style="text-decoration: none" href="https://act.oceana.org/page/96028/subscribe/1?ea.tracking.id=email">Join</a> |
+                        <a style="text-decoration: none" href="https://oceana.org/privacy-policy">Privacy Policy</a>
+                    </p>
+                </mj-text>
+                <mj-divider border-color="#BBBBBB" border-width="1px" padding="10px" />
+                <mj-social font-size="15px" icon-size="30px" icon-padding="0" mode="horizontal" padding="0px">
+                    <mj-social-element
+                            css-class="social-link"
+                            name="instagram"
+                            src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1997/Social+Icons-09.png?v=1677509907000"
+                            href="https://www.instagram.com/oceana/"
+                            background-color="#ffffff"
+                    />
+                    <mj-social-element
+                            css-class="social-link"
+                            name="twitter-noshare"
+                            src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1997/Social+Icons-10.png?v=1677509907000"
+                            href="https://www.twitter.com/oceana"
+                            background-color="#ffffff"
+                    />
+                    <mj-social-element
+                            css-class="social-link"
+                            name="facebook-noshare"
+                            src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1997/Social+Icons-08.png?v=1677509907000"
+                            href="https://www.facebook.com/oceana"
+                            background-color="#ffffff"
+                    />
+                </mj-social>
+                <mj-text padding="10px 10px 0px" css-class="wysiwyg" align="center">
+                    <p style="margin: 0px">This message was sent to {user_data~Email}.</p>
+                    <p style="margin-top: 2px">
+                        <a href="{unsubscribe_url~15733~114417~https://act.oceana.org~pb}">Unsubscribe</a> |
+                        <a href="{campaignpage_url~257906~https://act.oceana.org/page/110713/hub/2~hub}">Manage Preferences</a>
+                    </p>
+                    <p>
+                        <strong>Oceana | </strong>1025 Connecticut Ave. NW, 2nd Floor, Washington, DC 20036
+                        <br>
+                        <strong>P: </strong>+1 877.762.3262 | <strong>E: </strong>wavemaker@oceana.org
+                    </p>
+                </mj-text>
+                <mj-image
+                    padding="20px 0 0"
+                    src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/715405_698247/editor_images/4Star%2B175x45.jpg"
+                    width="175px"
+                    align="center"
+                />
+            </mj-column>
+        </mj-section>
+        <!-- END: Footer -->
+    </mj-body>
+</mjml>
