@@ -105,7 +105,7 @@
                 }
 
                 .block,
-                .block > table {
+                .block table {
                     background-color: #0e0f0f !important;
                 }
 
@@ -685,6 +685,94 @@
             </mj-column>
         </mj-section>
         <!-- END: 3 col image, text, button -->
+
+
+
+        <!-- START: 3 col image, text, button With background -->
+        <mj-section css-class="3-col-image-text-button-block block" background-color="#ffffff">
+            <mj-column width="200px" inner-background-color="#dbe0e3" padding="10px">
+                <mj-image
+                        src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1997/Valentines_FarewelltoFoam_Hero.png?v=1707246522000"
+                        alt="Custom alt text"
+                        href="https://oceana.org"
+                        padding="10px"
+                        align="center"
+                        fluid-on-mobile="true"
+                />
+                <mj-text padding="0 10px" css-class="wysiwyg">
+                    <h3>Heading</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris.
+                        Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.
+                    </p>
+                </mj-text>
+                <mj-button
+                        padding="16px 10px 10px"
+                        css-class="button"
+                        color="#ffffff"
+                        background-color="#c30d02"
+                        href="https://act.oceana.org/page/140864/action/1?ea.tracking.id=email"
+                        align="center"
+                        font-weight="bold"
+                        font-size="16px"
+                >Take Action</mj-button>
+            </mj-column>
+            <mj-column width="200px" inner-background-color="#dbe0e3" padding="10px">
+                <mj-image
+                        src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1997/Valentines_FarewelltoFoam_Hero.png?v=1707246522000"
+                        alt="Custom alt text"
+                        href="https://oceana.org"
+                        padding="10px"
+                        align="center"
+                        fluid-on-mobile="true"
+                />
+                <mj-text padding="0 10px" css-class="wysiwyg">
+                    <h3>Heading</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris.
+                        Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.
+                    </p>
+                </mj-text>
+                <mj-button
+                        padding="16px 10px 10px"
+                        css-class="button"
+                        color="#ffffff"
+                        background-color="#c30d02"
+                        href="https://act.oceana.org/page/140864/action/1?ea.tracking.id=email"
+                        align="center"
+                        font-weight="bold"
+                        font-size="16px"
+                >Take Action</mj-button>
+            </mj-column>
+            <mj-column width="200px" inner-background-color="#dbe0e3" padding="10px">
+                <mj-image
+                        src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1997/Valentines_FarewelltoFoam_Hero.png?v=1707246522000"
+                        alt="Custom alt text"
+                        href="https://oceana.org"
+                        padding="10px"
+                        align="center"
+                        fluid-on-mobile="true"
+                />
+                <mj-text padding="0 10px" css-class="wysiwyg">
+                    <h3>Heading</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris.
+                        Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.
+                    </p>
+                </mj-text>
+                <mj-button
+                        padding="16px 10px 10px"
+                        css-class="button"
+                        color="#ffffff"
+                        background-color="#c30d02"
+                        href="https://act.oceana.org/page/140864/action/1?ea.tracking.id=email"
+                        align="center"
+                        font-weight="bold"
+                        font-size="16px"
+                >Take Action</mj-button>
+            </mj-column>
+        </mj-section>
+        <!-- END: 3 col image, text, button button With background -->
 
         <!-- START: 3 col text, button -->
         <mj-section css-class="3-col-text-button-block block" background-color="#ffffff">
