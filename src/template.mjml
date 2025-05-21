@@ -870,8 +870,56 @@
         </mj-wrapper>
 
         <!-- END: Signoff -->
-
         <!-- END: Body Content -->
+
+        <!-- START: Cultivation Footer -->
+        <mj-section css-class="cultivation-block block" background-color="#ffffff" padding-bottom="0">
+            <mj-group>
+                <mj-column vertical-align="bottom" width="35%">
+                    <mj-image
+                        width="40px"
+                        height="40px"
+                        src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1997/curved-up-right-arrow.png?v=1747842377000"
+                        alt="Curved arrow"
+                        align="right"
+                        padding="0px"
+                        css-class="light-only"
+                    />
+                    <mj-raw><!--[if !mso]><!--></mj-raw>
+                    <mj-image
+                        width="40px"
+                        height="40px"
+                        src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1997/curved-up-right-arrow-white.png?v=1747845958000"
+                        alt="Curved arrow"
+                        align="right"
+                        padding="0px"
+                        css-class="dark-only"
+                    />
+                    <mj-raw><!--<![endif]--></mj-raw>
+                </mj-column>
+                <mj-column vertical-align="middle" width="65%">
+                    <mj-button
+                        padding="16px 10px 10px"
+                        css-class="button"
+                        color="#ffffff"
+                        background-color="#c30d02"
+                        href="https://act.oceana.org/page/140864/action/1?ea.tracking.id=email"
+                        align="left"
+                        font-weight="bold"
+                        font-size="16px"
+                    >Donate Now</mj-button>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+        <mj-section css-class="cultivation-block block" background-color="#ffffff" padding-bottom="0" padding-top="0">
+            <mj-column>
+                <mj-text padding="5px 10px 0px" css-class="wysiwyg" align="center">
+                    <span style="font-size: 18px; font-style: italic;">Supporters like you power this work</span>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!-- END: Cultivation Footer -->
+
         <!-- START: Footer -->
         <mj-section css-class="footer-block block" background-color="#ffffff">
             <mj-column>
