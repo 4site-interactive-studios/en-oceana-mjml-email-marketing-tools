@@ -2,7 +2,8 @@
     <mj-head>
         <mj-breakpoint width="600px"/>
         <mj-attributes>
-            <mj-all color="inherit" font-family="Tahoma, Verdana, Segoe, sans-serif" />
+            <mj-font name="Lato" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700" />
+            <mj-all color="inherit" font-family="Lato, Tahoma, Verdana, Segoe, sans-serif" />
             <mj-text font-size="14px" line-height="1.25" />
             <mj-button border-radius="0" />
             <mj-navbar-link text-transform="none" />
@@ -58,6 +59,18 @@
 
                 .header-button-col {
                     margin: 16px auto 6px;
+                }
+
+                .hide-on-mobile {
+                    display: none !important;
+                }
+
+                .signoff-block .signoff-image-column {
+                  width: 100px !important;
+                }
+
+                .signoff-block .signoff-text-column {
+                    width: auto !important;
                 }
             }
         </mj-style>
@@ -426,7 +439,7 @@
         <!-- END: Heading w/ borders -->
 
         <!-- START: 2 col image and text -->
-        <mj-section css-class="2-col-image-text-block block" background-color="#ffffff">
+        <mj-section css-class="2-col-image-text-block block" background-color="#ffffff" direction="rtl">
             <mj-column width="200px" vertical-align="middle">
                 <mj-image
                     src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1997/Valentines_FarewelltoFoam_Hero.png?v=1707246522000"
@@ -870,6 +883,44 @@
         </mj-wrapper>
 
         <!-- END: Signoff -->
+
+
+        <!-- START: Signoff single row-->
+        <mj-wrapper css-class="signoff-block block" background-color="#ffffff">
+            <mj-section>
+                <mj-column>
+                    <mj-text padding="0 10px" css-class="wysiwyg">
+                        <p>For the oceans,</p>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section>
+                <mj-group>
+                    <mj-column width="17%" vertical-align="middle" css-class="signoff-image-column">
+                        <mj-image
+                                width="90px"
+                                height="90px"
+                                src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1997/JosephGordon_Headshot2024.png"
+                                alt="Oceana Logo"
+                                align="center"
+                                padding="0px 0px 0px 10px"
+                        />
+                    </mj-column>
+                    <mj-column width="83%" vertical-align="middle" css-class="signoff-text-column">
+                        <mj-text padding="10px" css-class="wysiwyg">
+                            <p>
+                                <b>Joseph Gordon</b><br>
+                                Campaign Director<br>
+                                Oceana
+                            </p>
+                        </mj-text>
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+        </mj-wrapper>
+        <!-- END: Signoff single row -->
+
+
         <!-- END: Body Content -->
 
         <!-- START: Cultivation Footer -->
