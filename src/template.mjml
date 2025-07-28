@@ -127,6 +127,10 @@
                     background-color: #eaebec !important;
                     color: #121314 !important;
                 }
+
+                .social-link img {
+                    filter: brightness(0) invert(1);
+                }
             }
         </mj-style>
         <mj-style>
